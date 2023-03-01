@@ -1,18 +1,19 @@
 .resizeimage img { width: 100vw; }
-	
-table{
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
-table th,table td{
-  padding: 15px 0 15px 1px;
-  text-align: left;
+.span-5{
+    display: flex;
+    flex-wrap: wrap;
 }
-
-table tr:nth-child(odd){
-  background-color: #eee
+.span-5>div{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px 0 10px 5px;
+}
+.span-10 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 10px 3px 3px 3px;
+    padding: 13px 3px 3px 3px;
 }
 
 .resizeimage img { width: 100vw; }
@@ -27,13 +28,13 @@ table tr:nth-child(odd){
 }
  
 /*以下遅延の指定*/
-.txt01 {animation-delay: 1s;}
-.txt02 {animation-delay: 1.2s;}
-.txt03 {animation-delay: 1.3s;}
-.txt04 {animation-delay: 1.4s;}
-.txt05 {animation-delay: 1.5s;}
-.txt06 {animation-delay: 1.6s;}
-.txt07 {animation-delay: 1.7s;}
-.txt08 {animation-delay: 1.8s;}
-.txt09 {animation-delay: 1.9s;}
-.txt10 {animation-delay: 2s;}
+.row01 {animation-delay: 1s;}
+.row02 {animation-delay: 1.1s;}
+.row03 {animation-delay: 1.2s;}
+.row04 {animation-delay: 1.3s;}
+.row05 {animation-delay: 1.4s;}
+.row06 {animation-delay: 1.5s;}
+.row07 {animation-delay: 1.6s;}
+.row08 {animation-delay: 1.7s;}
+.row09 {animation-delay: 1.8s;}
+.row10 {animation-delay: 1.9s;}
