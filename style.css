@@ -7,7 +7,7 @@
 .span-5>div{
     width: 50%;
     box-sizing: border-box;
-    padding: 2px 0px 2px 5px;
+    padding: 2px 0px 2px 25px;
 }
 .span-10 {
     flex: 0 0 100%;
